@@ -6,7 +6,7 @@
         "address": "127.0.0.1",
         "port": 1080
     }
-    "*": {
+    "*" {
         "msg_self_introduction": "大家好，感谢使用本机器人。\n\n我负责排除掉讨厌的广告机器人，赋予我群管中的 Ban users 权限即可开始使用，移除权限即可停用。新用户加群时我会暂时将其禁言，并出一道小学二年级水平的口算题，列出几个选项让用户选择。因为我比较仁慈，所以用户只要点击按钮即可获得解封，甚至不需要答对。\n\n我不会收集群里的消息，源代码是公开的，如果您对我的功能不满意，可以点击我的头像查看 bio 中的源代码链接，修改并运行您自己的机器人。",
         "msg_challenge_not_for_you": "这次验证并不针对您",
         "msg_challenge": "您好，本群开启了验证功能，请在 {timeout} 秒内点击下面的按钮回答这个问题：\n{challenge}\n\nHi! The group has enabled CAPTCHA, please click one of the buttons to answer the following question:\n{challenge}",
@@ -19,15 +19,8 @@
         "msg_bot_no_permission": "操作失败，可能是机器人的权限不足",
         "msg_approved": "您已被管理员 {user} 人工通过，欢迎加入本群！\n\nWelcome to this group! You were approved by {user} manually.",
         "msg_refused": "该用户已被管理员 {user} 移除出群。\n\nThe user has been removed from group by {user}.",
-        /* Set this to true if a correct answer is required to get unrestricted.
-        A wrong answer will cause the restrict remaining unchanged.
-        Recommended if your group is suffering a lot of bots having ability to randomly click buttons */
         "challenge_strict_mode": false,
-        /* The maximum challenge responding time in seconds.
-        If there are no response in this time, the user will be restricted/banned */
         "challenge_timeout": 180,
-        /* What to do when a user failed the challenge
-        the value can be "restrict", "kick" (allow re-joining) or "ban" */
         "challenge_timeout_action": "restrict",
         "delete_passed_challenge": true,
         "delete_passed_challenge_interval": 15,
