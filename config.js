@@ -2,8 +2,8 @@
     // Your bot token (contact @BotFather to get one) goes here
     "token": "2005522670:AAEKXtrxTjx2dF263CnE6lRqqZJXpgj9iFk",
     // https://core.telegram.org/api/obtaining_api_id
-    "api_id": 123456,
-    "api_hash": "",
+    "api_id": 1555704,
+    "api_hash": "f08030f122370b15dbeaefb39cb0f693",
     // Proxy settings (only SOCKS5 proxy is supported currently)
     "proxy": {
         "address": "127.0.0.1",
