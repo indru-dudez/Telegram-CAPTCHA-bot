@@ -1,6 +1,6 @@
 {
     // Your bot token (contact @BotFather to get one) goes here
-    "token": "",
+    "token": "2005522670:AAEKXtrxTjx2dF263CnE6lRqqZJXpgj9iFk",
     // https://core.telegram.org/api/obtaining_api_id
     "api_id": 123456,
     "api_hash": "",
