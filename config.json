@@ -1,4 +1,4 @@
-
+{
     "token": "2005522670:AAEKXtrxTjx2dF263CnE6lRqqZJXpgj9iFk",
     "api_id": 1555704,
     "api_hash": "f08030f122370b15dbeaefb39cb0f693",
@@ -27,3 +27,4 @@
         "delete_failed_challenge": false,
         "delete_failed_challenge_interval": 180
     }
+}
